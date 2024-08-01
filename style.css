@@ -145,11 +145,7 @@ button{
     transition: 0.4s;
 }
 
-button:hover{
-    background-color: transparent;
-    border: 2px solid #02cfef;
-    cursor: pointer;
-}
+
 
 
 /* -------skills----------- */
@@ -170,6 +166,10 @@ button:hover{
 .skills-wrapper img {
     padding: 1.25rem;
   }
+
+  .skills-wrapper h2{
+    font-size: 32px;
+  }
   
 .icon {
     width: 11.875rem;
@@ -185,109 +185,78 @@ button:hover{
   }
 
 
+.tools-wrapper{
+  margin-top: 50px;
+  
+  }
+
+  .tools-wrapper h2{
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+
 /* ------projects------- */
 
-.projects {
-    background-color: var(--bg-color);
-    padding: 32px 0;
-    margin-top: 2rem;
-  }
+
+.Projects-cont{
+  display: grid;
+  grid-template-rows: repeat(1,1fr);
+  grid-template-columns: repeat(2,1fr);
+  margin: auto;
+  width: 500px;
+  height: 450px;
+  column-gap: 30px;
+  justify-content: center;
+}
+
+.Projects-cont div{
+  border-radius: 10px;
+  background-color: #02cfef;
+}
+
+.projects-main h2{
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.Projects-cont img{
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
   
-  .project-pic {
-    width: 65%;
-    height: 60%;
-  }
-  
-  .projects-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .projects-title {
-    text-align: center;
-    margin-bottom: 1rem;
-  }
-  
-  .project-container {
-    text-align: center;
-    width: 21.875rem;
-    padding: 1rem;
-  }
-
-  .project-container p {
-    padding: 0.4rem;
-  }
-  
-  .project-title {
-    margin-bottom: var(--bottom-margin);
-  }
-  
-  .project-details {
-    margin-bottom: var(--bottom-margin);
-  }
-  
-  .project-card {
-    background-color: #02cfef;
-    border-radius: 11px;
-    box-shadow: 0 3px 10px var(--primary-shadow);
-    padding: 20px;
-    margin: 10px;
-  }
-
-
-/* ------container------- */
-
-
-
-.contact {
-    max-width: 600px;
-    margin: 50px auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.contact h2 {
-    text-align: center;
-    color: #333;
+.img-a div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+  justify-content: space-between;
+  margin: 15px;
 }
 
-.contact form {
-    display: flex;
-    flex-direction: column;
+.img-a h1{
+  font-size: 24px;
+  color: #000000;
 }
 
-.contact label {
-    margin-bottom: 8px;
-    color: #333;
+.img-a a{
+  text-decoration: None;
+  background-color: #000000;
+  color: #00f7ff;
+  height: 50px;
+  width: 120px;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: 700;
+
 }
 
-.contact input, textarea {
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
 
-textarea {
-    resize: vertical;
-}
 
-.contact button {
-    padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.contact button:hover {
-    background-color: #0056b3;
-}
 
 /* ------contact-section----- */
 
