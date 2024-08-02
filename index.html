@@ -8,41 +8,60 @@
 </head>
 
 <body>
+
+
+  <div id="header">
+    <div class="container">
+
+      <nav>
+        <h1>Narendra Singh</h1>
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul id="nav-menu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects-main">Projects</a></li>
+            <li><a href="#contact-section">Contact</a></li>
+            <li><a href="https://drive.google.com/file/d/14rYT_EF2Lgct2Ak5GuPI_wulyhlDxmmJ/view?usp=drive_link">Resume</a></li>
+        </ul>
+      </nav>
+    
+    
+    
+      
+      <div class="header-text">
+        <div class="profile-image">
+          <img src="image/narendra.jpg" alt="Narendra Singh">
+        </div>
+        <h1>Hi, I am <span>Narendra Singh</span></h1>
+        <h2> Backend Developer </h2>
+
+      </div>
+    </div>
+  </div>
+  
+  <div id="about" class="about">
+    <div class="container">
+      <div class="main">
+        <img src="image/narendra.jpg" alt="Narendra Singh">
+        <div class="about-text">
+          <h2>About me</h2>
+          <h5>Backend <span>Developer</span></h5>
+          <p>
+            Dynamic Backend Developer with a strong foundation in Python and Django. Proficient in building robust and scalable web applications using REST Framework. Experienced in optimizing performance through a solid understanding of data structures and algorithms. Skilled in creating seamless user experiences by collaborating effectively within agile teams. Committed to writing clean, maintainable code and leveraging modern web technologies to deliver innovative solutions that meet business objectives and enhance user engagement.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
   
 
-
-    <div id="header">
-      <div class="container">
-          <nav>
-              <h1>Narendra Singh</h1>
-              <ul>
-                  <li><a href="#header">Home</a></li>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#skills">Skills</a></li>
-                  <li><a href="#projects-main">Projects</a></li>
-                  <li><a href="#contact-section">Contact</a></li>
-              </ul>
-          </nav>
-          <div class="header-text">
-              <h1>Hi, I am <span> Narendra Singh</span></h1>
-              <p>Backend Developer</p>
-          </div>
-      </div>
-    </div>
-
-    <!-- ----about------ -->
-
-    <div id="about" class="about">
-      <div class="main">
-          <img src="image/narendra.jpg">
-          <div class="about-text">
-              <h2>About me</h2>
-              <h5>Backend <span>Developer</span></h5>
-              <p>Dynamic Backend Developer with a strong foundation in Python and Django. Proficient in building robust and scalable web applications using REST Framework. Experienced in optimizing performance through a solid understanding of data structures and algorithms. Skilled in creating seamless user experiences by collaborating effectively within agile teams. Committed to writing clean, maintainable code and leveraging modern web technologies to deliver innovative solutions that meet business objectives and enhance user engagement.
-              </p>
-            </div>
-      </div>
-    </div>
 
 
     <!-- --------skills---------- -->
@@ -148,33 +167,59 @@
     <!-- ---------project-------- -->
 
     <div class="projects-main" id="projects-main">
-
       <h2>Projects</h2>
-      <div class="Projects-cont">
+      <div class="projects-cont">
         <div>
-          <img src="image/Learning-Management-System.png" alt="">
+          <img src="image/Learning-Management-System.png" alt="Learning Management System">
           <div class="img-a">
-            <div><h1>Learning Management System</h1>
+            <div>
+              <h1>Learning Management System</h1>
               <div><a href="https://github.com/Narendra5305/learningmanagemnetsystem/tree/main/learningmanagement">Github Repo</a></div>
             </div>
           </div>
-          
+          <ul>
+            <li>Developed a user authentication system enabling secure registration, login, and logout for instructors and students, and implemented CRUD operations for course and assignment management using Django class-based views.</li>
+            <li>Built a user-friendly interface with HTML5 and CSS3 to ensure a smooth and responsive user experience.</li>
+          </ul>
         </div>
-
-
+    
         <div>
-          <img src="image/adobestock_225442477-1200x800.webp" alt="">
+          <img src="image/adobestock_225442477-1200x800.webp" alt="Terminal Typing Master">
           <div class="img-a">
-            <div><h1>Terminal Typing Master</h1>
+            <div>
+              <h1>Terminal Typing Master</h1>
               <div><a href="https://github.com/Narendra5305/typing-master">Github Repo</a></div>
             </div>
           </div>
-
+          <ul>
+            <li>Developed a terminal-based typing test application in Python, utilizing JSON to manage lists of random words for the test.</li>
+            <li>Implemented efficient algorithms for real-time performance and designed various typing metrics calculations, including words per minute (WPM).</li>
+          </ul>
         </div>
-        
-        
+    
+        <div>
+          <img src="image/proj_1 (1).png" alt="Terminal Typing Master">
+          <div class="img-a">
+            <div>
+              <h1>Terminal-Based Maze Solver</h1>
+              <div><a href="https://github.com/Narendra5305/maze_solver">Github Repo</a></div>
+            </div>
+          </div>
+          <ul>
+            <li>Developed a terminal-based maze solver in Python,
+              featuring efficient pathfinding algorithms like BFS and
+              unique random maze generation for each run, with
+              terminal visualization for enhanced user engagement.</li>
+              
+            <li>Utilized data structures and algorithms to optimize
+              performance and accuracy, and managed version
+              control with Git, maintaining a well-documented
+              repository.</li>
+            </ul>
+        </div>
       </div>
     </div>
+
 
 
     
@@ -200,5 +245,8 @@
         <p>LeetCode: <a href="https://leetcode.com/u/Narendra-5305/" target="_blank">LeetCode Profile</a></p>
       </div>
     </div>
+    
+    <script src="script.js"></script>
 </body>
+</html>
 
